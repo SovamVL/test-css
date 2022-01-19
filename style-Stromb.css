@@ -71,7 +71,8 @@ h1  {
     }
     body {
         max-width: 360px;
-        margin-right: 70px;
+        /*margin: auto;*/
+        margin-right: 100px;
         padding: 0 14px 14px 14px;
         background-image: url('background-02.jpg');
     }
@@ -132,6 +133,7 @@ h1  {
 
 @media (max-width: 360px) { /*, (max-height: 700px)*/ 
     body {
+        margin: auto;
         max-width: 360px;
         background-image: url('background-02.jpg');
     }
